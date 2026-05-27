@@ -1,0 +1,18 @@
+# Build output
+output/
+
+# Extracted PPTX for analysis
+unpacked/
+extracted_media/
+
+# Python
+__pycache__/
+*.pyc
+
+# Temp files
+*~
+~$*
+*.tmp
+
+# Test artifacts
+原图_glass_effect.jpg

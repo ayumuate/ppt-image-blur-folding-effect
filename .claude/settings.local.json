@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"from PIL import Image; import os; images_dir = r'C:/Users/ayumu/Projects/ppt-image-blur-folding-effect/images'; files = sorted\\(os.listdir\\(images_dir\\)\\); [print\\(f'{f}: {Image.open\\(os.path.join\\(images_dir, f\\)\\).size}'\\) for f in files]\")",
+      "Bash(python -c \"from PIL import Image; import os; images_dir = r'C:/Users/ayumu/Projects/ppt-image-blur-folding-effect/images'; files = sorted\\(os.listdir\\(images_dir\\)\\); [print\\(f'{f}: {Image.open\\(os.path.join\\(images_dir, f\\)\\).size}'\\) for f in files]\")",
+      "Bash(mkdir -p /tmp/pptx_unzip)",
+      "Bash(unzip -o \"C:/Users/ayumu/Projects/ppt-image-blur-folding-effect/sample.pptx\" -d /tmp/pptx_unzip)",
+      "Bash(unzip *)"
+    ]
+  }
+}
